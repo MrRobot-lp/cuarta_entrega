@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(240, 225, 198);   
+}
+
+img.logo{
+    margin-left: 200px;
+  }
+.fotosServ{
+    text-align: center;
+}
+#imgEmpresas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 60%;
+}
+/* agrego transition a la galeria de empresas*/
+#imgEmpresas img:Hover{
+    border: 5px solid white;
+} 
+/* aplico translate*/
+.joystickPor{
+    transition: all 2s;    
+}   
+.joystickPor:hover{
+    transform: translate(-10px);
+}
+
+.mapaGoogle{
+    text-align: center;
+}
+.wspBoton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+#imgEmpresas img{
+    margin: 2px;
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.horarios{
+    display: flex;
+    justify-content: center;
+}
